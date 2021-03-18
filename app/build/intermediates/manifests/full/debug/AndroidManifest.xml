@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="me.mahakagg.recipesrecyclerview"
+    package="me.recycler.recipesrecyclerview"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="me.mahakagg.recipesrecyclerview.MainActivity" >
+        <activity android:name="me.recycler.recipesrecyclerview.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,11 +25,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="me.mahakagg.recipesrecyclerview.RecipeMethodActivity"
-            android:parentActivityName="me.mahakagg.recipesrecyclerview.MainActivity" >
+            android:name="me.recycler.recipesrecyclerview.RecipeMethodActivity"
+            android:parentActivityName="me.recycler.recipesrecyclerview.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="me.recycler.recipesrecyclerview.MainActivity" />
         </activity>
     </application>
 
